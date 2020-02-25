@@ -19,3 +19,6 @@ CoolToBeASCII("Step 1: Do something")
 CoolToBeASCII("Step 2: ???", font = "slant" )
 CoolToBeASCII("Step 3: Profit", font = "starwars" )
 }
+\seealso{
+AvailableFonts
+}

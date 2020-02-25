@@ -9,11 +9,14 @@ ASCIIfy(text, font = NULL)
 \arguments{
 \item{text}{A string to be ASCII-fied}
 
-\item{font}{The font to use. See http://artii.herokuapp.com/fonts_list for a comprehensive list of available fonts.}
+\item{font}{The font to use}
 }
 \description{
 Uses http://artii.herokuapp.com/ API, so requires an active internet connection.
 }
 \examples{
 ASCIIfy( "test" )
+}
+\seealso{
+AvailableFonts
 }
