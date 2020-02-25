@@ -5,7 +5,7 @@
 #' @param text A string to be ASCII-fied
 #' @param font The font to use. See http://artii.herokuapp.com/fonts_list for a comprehensive list of available fonts.
 #' @export
-#' @import httr, utils
+#' @import httr utils
 #' @examples
 #' ASCIIfy( "test" )
 ASCIIfy <- function( text, font = NULL ){
