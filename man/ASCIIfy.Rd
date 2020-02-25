@@ -14,3 +14,6 @@ ASCIIfy(text, font = NULL)
 \description{
 Uses http://artii.herokuapp.com/ API, so requires an active internet connection.
 }
+\examples{
+ASCIIfy( "test" )
+}

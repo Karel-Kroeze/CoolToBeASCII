@@ -5,7 +5,8 @@
 #' @param text A string to be ASCII-fied
 #' @param font The font to use. See http://artii.herokuapp.com/fonts_list for a comprehensive list of available fonts.
 #' @export
-#' @example
+#' @import httr, utils
+#' @examples
 #' ASCIIfy( "test" )
 ASCIIfy <- function( text, font = NULL ){
     url <- paste0( "http://artii.herokuapp.com/make?text=", utils::URLencode( text ) )
@@ -14,7 +15,7 @@ ASCIIfy <- function( text, font = NULL ){
     if (res$status_code != 200){
         stop(res)
     }
-    return( content( res, encoding = "UTF-8" ) )
+    return( httr::content( res, encoding = "UTF-8" ) )
 }
 
 #' Prints a super cool ASCII title in the font of your choice

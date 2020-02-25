@@ -2,3 +2,5 @@
 
 export(ASCIIfy)
 export(CoolToBeASCII)
+import("httr,")
+import(utils)
