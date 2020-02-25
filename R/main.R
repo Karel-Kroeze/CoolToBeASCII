@@ -26,7 +26,7 @@ ASCIIfy <- function( text, font = NULL ){
 #' @export
 #' @examples
 #' CoolToBeASCII("Step 1: Do something")
-#' CoolToBeASCII("Step 2: ???", font = "slanted" )
+#' CoolToBeASCII("Step 2: ???", font = "slant" )
 #' CoolToBeASCII("Step 3: Profit", font = "starwars" )
 CoolToBeASCII <- function( text, font = NULL ){
     raw <- ASCIIfy( text, font )
